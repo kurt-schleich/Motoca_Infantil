@@ -10,4 +10,4 @@ class Pessoa:
         return self.nome
 
     def __str__(self):
-        return "[" + self.nome +":" + self.idade + "]"
+        return '['+self.nome+':'+self.idade+']'

@@ -51,13 +51,13 @@ class Motoca:
 
     def buzinar(self):
         if self.pessoa:
-            potencia2 = ""
+            potencia2 = ''
             i = 1
             while i <= self.potencia:
-                potencia2 += "e"
-                i+=1
-            buzina = "P" + potencia2 + "m"
+                potencia2 += 'e'
+                i += 1
+            buzina = 'P' + potencia2 + 'm'
         else:
-            buzina = ""
+            buzina = ''
 
         return buzina
