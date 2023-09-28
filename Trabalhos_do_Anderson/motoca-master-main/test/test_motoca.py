@@ -1,8 +1,8 @@
 
 import unittest
 
-from src1.motoca import Motoca
-from src1.pessoa import Pessoa
+from src.motoca import Motoca
+from src.pessoa import Pessoa
 
 
 class TesteMotoca(unittest.TestCase):
