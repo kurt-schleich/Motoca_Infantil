@@ -1,5 +1,6 @@
 from pessoa import Pessoa
 
+
 class Motoca:
 
     def __init__(self, potencia: int):
